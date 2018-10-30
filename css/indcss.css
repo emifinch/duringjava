@@ -263,6 +263,7 @@ a:hover {
         grid-row-gap: 75px;
         grid-column-gap: 50px;
         justify-items: center;
+        align-items: center;
         grid-template-areas:
         "six seven eight"
     }
