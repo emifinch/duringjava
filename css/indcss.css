@@ -147,39 +147,9 @@ a:hover {
     text-align: center;
   }
 
-.family {
-    object-fit: cover;
-    background: teal;
-    margin: 15px;
-    padding: 5px;
-    width: 412.5px;
-    height: 247.5px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
   
 @media screen and (min-width:768px){
     .flex-item {
-        object-fit: cover;
-        background: #270a38;
-        margin: 15px;
-        padding: 5px;
-        width: 281.25px;
-        height: 168.75px;
-        margin-top: 10px;
-        
-        line-height: 150px;
-        color: white;
-        font-weight: bold;
-        font-size: 3em;
-        text-align: center;
-      }
-      .family {
         object-fit: cover;
         background: #270a38;
         margin: 15px;
@@ -200,21 +170,6 @@ a:hover {
     
 @media screen and (min-width:1000px){
 .flex-item {
-    object-fit: cover;
-    background-color:#c0be81;
-    margin: 15px;
-    padding: 5px;
-    width: 337.5px;
-    height: 202.5px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-.family {
     object-fit: cover;
     background-color:#c0be81;
     margin: 15px;
