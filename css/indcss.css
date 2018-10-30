@@ -252,6 +252,23 @@ a:hover {
 }
 }
 
+
+@media screen and (min-width:768px){
+    .imggrid{
+        display:grid;
+        margin:25px;
+        padding:13px;
+        grid-template-columns:1fr 1fr 1fr; 
+        grid-template-rows:1fr;
+        grid-row-gap: 75px;
+        grid-column-gap: 50px;
+        grid-template-areas:
+        "six seven eight"
+    }
+}
+
+
+
 @media screen and (min-width:768px){
     .grid2{
         display:grid;
