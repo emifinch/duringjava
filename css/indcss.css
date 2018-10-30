@@ -134,7 +134,7 @@ a:hover {
 .flex-item {
     object-fit: cover;
     background: teal;
-    margin: 15px;
+    margin: 20px;
     padding: 5px;
     width: 412.5px;
     height: 247.5px;
@@ -152,7 +152,7 @@ a:hover {
     .flex-item {
         object-fit: cover;
         background: #270a38;
-        margin: 15px;
+        margin: 20px;
         padding: 5px;
         width: 281.25px;
         height: 168.75px;
@@ -172,7 +172,7 @@ a:hover {
 .flex-item {
     object-fit: cover;
     background-color:#c0be81;
-    margin: 15px;
+    margin: 20px;
     padding: 5px;
     width: 337.5px;
     height: 202.5px;
