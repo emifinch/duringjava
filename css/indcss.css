@@ -1,0 +1,309 @@
+
+/* nav {
+    background-color: #a6c48d;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #24646d;
+    background-color:#c0be81;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+} */
+
+
+#homepage{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    background-color:#ffb4b1;
+    background-image: url("../images/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000035;
+    font-family: 'Poiret One', cursive;
+}
+
+#abtme{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    background-color:#ffb4b1;
+    background-size: cover;
+    color: #000035;
+    font-family: 'Poiret One', cursive;
+}
+
+#callme{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    background-color:#ffb4b1;
+    background-image: url("../images/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000035;
+    font-family: 'Poiret One', cursive;
+}
+
+
+#workskills{
+    margin: 0;
+    padding: 0;
+    font-size: 20px; 
+    background-color:teal;
+    background-image:none; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000035;
+    font-family: 'Poiret One', cursive;
+}
+
+@media only screen and (orientation:landscape){
+#workskills{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    background-color:#ffb4b1;
+    background-image: url("../images/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000035;
+    font-family: 'Poiret One', cursive;
+}
+}
+
+/* Used a media query to change background of page to differ between a plain color in portrait since the image will be blocked, and an image in landscape */
+
+.headers{
+    margin: 30px 15px 30px 15px;
+    padding:5px;
+    font-size:50px;
+    color: #5f4737;
+    font-family: 'Charmonman', cursive;
+} 
+
+.navbar{
+    margin:0;
+    padding:0;
+    background-color: #a6c48d;
+    overflow: hidden;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        margin:0;
+        padding:0;
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+    nav > ul > li > a {
+        color: #24646d;
+        background-color:#c0be81;
+        display: block;
+        line-height: 2em;
+        padding: 0.5em 0.5em;
+        text-decoration: none;
+    }
+
+a:hover {
+    background-color: maroon;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+.flex-item {
+    object-fit: cover;
+    background: teal;
+    margin: 15px;
+    padding: 5px;
+    width: 412.5px;
+    height: 247.5px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+.family {
+    object-fit: cover;
+    background: teal;
+    margin: 15px;
+    padding: 5px;
+    width: 412.5px;
+    height: 247.5px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+@media screen and (min-width:768px){
+    .flex-item {
+        object-fit: cover;
+        background: #270a38;
+        margin: 15px;
+        padding: 5px;
+        width: 281.25px;
+        height: 168.75px;
+        margin-top: 10px;
+        
+        line-height: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+      }
+      .family {
+        object-fit: cover;
+        background: #270a38;
+        margin: 15px;
+        padding: 5px;
+        width: 281.25px;
+        height: 168.75px;
+        margin-top: 10px;
+        
+        line-height: 150px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+      }
+}
+   
+
+    
+@media screen and (min-width:1000px){
+.flex-item {
+    object-fit: cover;
+    background-color:#c0be81;
+    margin: 15px;
+    padding: 5px;
+    width: 337.5px;
+    height: 202.5px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+.family {
+    object-fit: cover;
+    background-color:#c0be81;
+    margin: 15px;
+    padding: 5px;
+    width: 337.5px;
+    height: 202.5px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+/* Used Media query and width view to change color of padding and increase image size on increasingly smaller screens so that the photos appear largest and as single unique elements on phones as opposed to conveying the gallery meaning on large screens. */
+
+.imgsize{
+    width:480px;
+    height:500px;
+}
+
+@media screen and (min-width:768px){
+.grid{
+    display:grid;
+    margin:25px;
+    padding:13px;
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows:1fr;
+    grid-row-gap: 75px;
+    grid-column-gap: 50px;
+    grid-template-areas:
+    "one two"
+}
+}
+
+@media screen and (min-width:768px){
+    .grid2{
+        display:grid;
+        margin:25px;
+        padding:13px;
+        grid-template-columns:1fr 1fr; 
+        grid-template-rows:1fr 1fr;
+        grid-row-gap:75px;
+        grid-column-gap: 50px;
+        grid-template-areas:
+        "three four"
+        "five six"  
+    }
+}
+/* 768 px selected because on tablets and phones I want one column to be viewed-(layout of page is one column) but on larger laptop and desktop screens I want the full layout verison viewable.  */
+
+.one{
+    grid-area:one;
+}
+
+.two{
+    grid-area:two;
+    font-size: 30px;
+    color:rgb(10, 77, 77);
+    font-family: 'Oswald', sans-serif;
+}
+
+.three{
+    grid-area:three;
+}
+
+.four{
+    grid-area:four;
+}
+.five{
+    grid-area: five
+}
+
+.six{
+    grid-area: six
+}
+
+
+.profilepic{
+    width:350px;
+    height:539px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endpic{
+    width:625px;
+    height:763px;
+}
