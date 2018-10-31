@@ -220,7 +220,7 @@ a:hover {
         justify-items: center;
         align-items: center;
         grid-template-areas:
-        "six seven eight"
+        "nine seven eight"
     }
 }
 
@@ -261,20 +261,25 @@ a:hover {
     grid-area:four;
 }
 .five{
-    grid-area: five
+    grid-area: five;
 }
 
 .six{
-    grid-area: six
+    grid-area: six;
 }
 
 .seven{
-    grid-area: seven
+    grid-area: seven;
 }
 
 .eight{
-    grid-area: eight
+    grid-area: eight;
 }
+
+.nine{
+    grid-area: nine;
+}
+
 
 .profilepic{
     width:350px;
