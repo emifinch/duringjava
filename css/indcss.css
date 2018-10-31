@@ -299,9 +299,6 @@ a:hover {
 .eee{
     grid-area: eee;
 }
-.ed1{
-    grid-area: ed1;
-}
 .ed2{
     grid-area: ed2;
 }
@@ -311,9 +308,7 @@ a:hover {
 .emp{
     grid-area: emp;
 }
-.law{
-    grid-area: law;
-}
+
 .law2{
     grid-area: law2;
 }
