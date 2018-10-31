@@ -281,6 +281,7 @@ a:hover {
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 75px;
     grid-column-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
     "eee eee"
     "ed1 ed1"
