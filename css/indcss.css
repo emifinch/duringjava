@@ -278,13 +278,23 @@ a:hover {
     margin:25px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 75px;
     grid-column-gap: 50px;
     grid-template-areas:
     "eee eee"
     "ed1 ed1"
     "ed2 ed3"
+    "emp emp"
+    "law law"
+    "law2 law3"
+    "muse muse"
+    "muse2 muse3"
+    "libarch libarch"
+    "libarch2 libarch3"
+    "volunt volunt"
+    "volunt2 volunt3"
+    "extra cv"
 }
 
 .eee{
@@ -298,4 +308,49 @@ a:hover {
 }
 .ed3{
     grid-area: ed3;
+}
+.emp{
+    grid-area: emp;
+}
+.law{
+    grid-area: law;
+}
+.law2{
+    grid-area: law2;
+}
+.law3{
+    grid-area: law3;
+}
+.muse{
+    grid-area: muse;
+}
+.muse2{
+    grid-area: muse2;
+}
+.muse3{
+    grid-area: muse3;
+}
+.libarch{
+    grid-area: libarch;
+}
+.libarch2{
+    grid-area: libarch2;
+}
+.libarch3{
+    grid-area: libarch3;
+}
+.volunt{
+    grid-area: volunt;
+}
+.volunt2{
+    grid-area: volunt2;
+}
+.volunt3{
+    grid-area: volunt3;
+}
+.extra{
+    grid-area: extra;
+}
+.cv{
+    grid-area: cv;
 }
