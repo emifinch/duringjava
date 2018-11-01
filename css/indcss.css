@@ -69,6 +69,7 @@
     font-family: 'Charmonman', cursive;
 } 
 
+@media screen and (min-width:768px){
 .navbar{
     margin:0;
     padding:0;
@@ -94,6 +95,7 @@
         padding: 0.5em 0.5em;
         text-decoration: none;
     }
+}
 
 a:hover {
     background-color: maroon;
