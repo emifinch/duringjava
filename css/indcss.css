@@ -304,7 +304,6 @@ a:hover {
 
 .eee{
     grid-area: eee;
-    font-weight: bold;
 }
 .ed2{
     grid-area: ed2;
@@ -314,7 +313,6 @@ a:hover {
 }
 .emp{
     grid-area: emp;
-    font-weight: bold;
 }
 
 .law2{
@@ -325,7 +323,6 @@ a:hover {
 }
 .muse{
     grid-area: muse;
-    font-weight: bold;
 }
 .muse2{
     grid-area: muse2;
@@ -335,7 +332,6 @@ a:hover {
 }
 .libarch{
     grid-area: libarch;
-    font-weight: bold;
 }
 .libarch2{
     grid-area: libarch2;
@@ -345,7 +341,6 @@ a:hover {
 }
 .volunt{
     grid-area: volunt;
-    font-weight: bold;
 }
 .volunt2{
     grid-area: volunt2;
@@ -355,12 +350,7 @@ a:hover {
 }
 .extra{
     grid-area: extra;
-    font-weight: bold;
 }
 .cv{
     grid-area: cv;
-    font-weight: bold;
-}
-.unbold{
-    font-weight:normal;
 }
