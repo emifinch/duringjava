@@ -307,12 +307,11 @@ a:hover {
     margin:25px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
-    grid-template-rows:10% 10% 10% 10% 5% 10% 5% 10% 5% 10% 15%;
+    grid-template-rows: 10% 10% 10% 5% 10% 5% 10% 5% 10% 25%;
     grid-row-gap: 75px;
     grid-column-gap: 15px;
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
-    "eee eee"
     "ed2 ed3"
     "emp emp"
     "law2 law3"
@@ -325,10 +324,6 @@ a:hover {
     }
 }
 
-
-.eee{
-    grid-area: eee;
-}
 
 .ed2{
     grid-area: ed2;
