@@ -304,7 +304,7 @@ a:hover {
 @media screen and (min-width:768px){
 .dirg{
     display:grid;
-    margin:25px;
+    margin:30px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
     grid-template-rows: 10% 10% 10% 5% 10% 5% 10% 5% 10% 25%;
@@ -323,7 +323,6 @@ a:hover {
     "volunt2 volunt3"
     }
 }
-
 
 .ed2{
     grid-area: ed2;
