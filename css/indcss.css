@@ -302,8 +302,8 @@ a:hover {
 }
 .dirg{
     display:grid;
-    margin:0px;
-    padding:0px;
+    margin:25px;
+    padding:13px;
     grid-template-columns:1fr 1fr; 
     grid-template-rows:10% 10% 10% 10% 5% 10% 5% 10% 5% 10% 15%;
     grid-row-gap: 75px;
@@ -320,6 +320,61 @@ a:hover {
     "libarch2 libarch3"
     "volunt volunt"
     "volunt2 volunt3"
+}
+
+.eee{
+    grid-area: eee;
+}
+
+.ed2{
+    grid-area: ed2;
+}
+
+.emp{
+    grid-area: emp;
+}
+
+.law2{
+    grid-area: law2;
+}
+
+.law3{
+    grid-area: law3;
+}
+
+.muse{
+    grid-area: muse;
+}
+
+.muse2{
+    grid-area: muse2;
+}
+
+.muse3{
+    grid-area: muse3;
+}
+.libarch{
+    grid-area: libarch;
+}
+
+.libarch2{
+    grid-area: libarch2;
+}
+
+.libarch3{
+    grid-area: libarch3;
+}
+
+.volunt{
+    grid-area: volunt;
+}
+
+.volunt2{
+    grid-area: volunt2;
+}
+
+.volunt3{
+    grid-area: volunt3;
 }
 
 .enbolded{
