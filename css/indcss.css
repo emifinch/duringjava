@@ -385,3 +385,11 @@ a:hover {
     font-family: 'Lora', serif;
     font-weight: bold;
 }
+
+.eeetitle{
+    margin: 25px;
+    padding:13px;
+    font-size:30px;
+    color: #084e48;
+    font-family: 'Charmonman', cursive;
+}
