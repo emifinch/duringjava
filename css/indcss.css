@@ -205,6 +205,22 @@ a:hover {
     }
 }
 
+@media screen and (min-width:100px){
+    .imggrid{
+        display:grid;
+        margin:25px;
+        padding:13px;
+        grid-template-columns:1fr 1fr 1fr; 
+        grid-template-rows:1fr;
+        grid-row-gap: 75px;
+        grid-column-gap: 50px;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+        "nine seven eight"
+    }
+}
+
 
 
 @media screen and (min-width:768px){
@@ -221,6 +237,7 @@ a:hover {
         "five six"  
     }
 }
+
 /* 768 px selected because on tablets and phones I want one column to be viewed-(layout of page is one column) but on larger laptop and desktop screens I want the full layout verison viewable.  */
 
 .one{
