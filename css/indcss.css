@@ -62,8 +62,8 @@
 /* Used a media query to change background of page to differ between a plain color in portrait since the image will be blocked, and an image in landscape */
 
 .headers{
-    margin: 30px 15px 30px 15px;
-    padding:5px;
+    margin: 25px;
+    padding:13px;
     font-size:50px;
     color: #5f4737;
     font-family: 'Charmonman', cursive;
