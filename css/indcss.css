@@ -302,8 +302,8 @@ a:hover {
 }
 .dirg{
     display:grid;
-    margin:25px;
-    padding:13px;
+    margin:0px;
+    padding:0px;
     grid-template-columns:1fr 1fr; 
     grid-template-rows:10% 10% 10% 10% 5% 10% 5% 10% 5% 10% 15%;
     grid-row-gap: 75px;
