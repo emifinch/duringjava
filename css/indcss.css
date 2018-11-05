@@ -298,59 +298,9 @@ a:hover {
     "libarch libarch"
     "libarch2 libarch3"
     "volunt volunt"
-    "volunt2 volunt3"
-    "extra cv"
+     "volunt2 volunt3"
 }
 
-.eee{
-    grid-area: eee;
-}
-.ed2{
-    grid-area: ed2;
-}
-.ed3{
-    grid-area: ed3;
-}
-.emp{
-    grid-area: emp;
-}
-
-.law2{
-    grid-area: law2;
-}
-.law3{
-    grid-area: law3;
-}
-.muse{
-    grid-area: muse;
-}
-.muse2{
-    grid-area: muse2;
-}
-.muse3{
-    grid-area: muse3;
-}
-.libarch{
-    grid-area: libarch;
-}
-.libarch2{
-    grid-area: libarch2;
-}
-.libarch3{
-    grid-area: libarch3;
-}
-.volunt{
-    grid-area: volunt;
-}
-.volunt2{
-    grid-area: volunt2;
-}
-.volunt3{
-    grid-area: volunt3;
-}
-.extra{
-    grid-area: extra;
-}
-.cv{
-    grid-area: cv;
+.enbolded{
+    font-weight: bold;
 }
