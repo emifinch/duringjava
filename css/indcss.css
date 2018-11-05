@@ -300,6 +300,8 @@ a:hover {
     margin: 30px;
     padding: 0;
 }
+
+@media screen and (min-width:768px){
 .dirg{
     display:grid;
     margin:25px;
@@ -320,7 +322,9 @@ a:hover {
     "libarch2 libarch3"
     "volunt volunt"
     "volunt2 volunt3"
+    }
 }
+
 
 .eee{
     grid-area: eee;
