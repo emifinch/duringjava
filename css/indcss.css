@@ -233,7 +233,7 @@ a:hover {
         grid-column-gap: 50px;
         grid-template-areas:
         "three three three four four four"
-        "five five five six six"  
+        "five five five six six six"  
     }
 }
 
