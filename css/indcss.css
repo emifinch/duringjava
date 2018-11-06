@@ -41,7 +41,7 @@
     font-size: 20px; 
     background-color:#ffdfef;
     background-image: url("../images/sunbloom.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     color: #000035;
     font-family: 'Poiret One', cursive;
 }
