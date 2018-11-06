@@ -37,7 +37,7 @@
     margin: 0;
     padding: 0;
     font-size: 20px; 
-    background-color:#5ab9ab;
+    background-color:#cafff7;
     background-size: cover;
     color: #000035;
     font-family: 'Poiret One', cursive;
@@ -400,6 +400,6 @@ a:hover {
     margin: 25px;
     padding:13px;
     font-size:30px;
-    color: #e67774;
+    color: #22927a;
     font-family: 'Poiret One', cursive;
 }
