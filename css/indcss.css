@@ -332,6 +332,10 @@ a:hover {
     grid-area: ed2;
 }
 
+.ed3{
+    grid-area: ed3;
+}
+
 .emp{
     grid-area: emp;
 }
