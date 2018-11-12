@@ -47,19 +47,19 @@
     font-family: 'Poiret One', cursive;
 }
 
-/* @media only screen and (orientation:landscape){
+@media only screen and (orientation:landscape){
 #workskills{
     margin: 0;
     padding: 0;
     font-size: 20px;  
-    background-color:#ffb4b1;
+    background-color:#b1fff5;
     background-image: url("../images/blossoms.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #000035;
     font-family: 'Poiret One', cursive;
 }
-} */
+}
 
 /* Used a media query to change background of page to differ between a plain color in portrait since the image will be blocked, and an image in landscape */
 
