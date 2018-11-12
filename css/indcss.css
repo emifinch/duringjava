@@ -39,10 +39,10 @@
     margin: 0;
     padding: 0;
     font-size: 20px; 
-    background-color:#ffdfef;
-    background-image: url("../images/cherryblossom.jpg");
+    background-color:#b1fff5;
+    /* background-image: url("../images/cherryblossom.jpg");
     background-repeat: no-repeat;
-    background-size: 7500px 5000px;
+    background-size: 7500px 5000px; */
     color: #000035;
     font-family: 'Poiret One', cursive;
 }
@@ -53,7 +53,7 @@
     padding: 0;
     font-size: 20px;  
     background-color:#b1fff5;
-    background-image: url("../images/blossoms.jpg");
+    background-image: url("../images/cherryblossom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #000035;
