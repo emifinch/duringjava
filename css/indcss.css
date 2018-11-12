@@ -55,7 +55,7 @@
     background-color:#b1fff5;
     background-image: url("../images/cherryblossom.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 7500px 5000px; 
     color: #000035;
     font-family: 'Poiret One', cursive;
 }
