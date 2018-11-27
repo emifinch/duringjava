@@ -406,7 +406,7 @@ a:hover {
 }
 
 .lightgallery{
-	width: 95%;
+	width: 100%;
 	border: 2px solid black;
 	margin:0 auto;
 	display: grid;
