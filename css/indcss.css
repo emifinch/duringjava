@@ -101,7 +101,7 @@
 }
 
 a:hover {
-    background-color: maroon;
+    background-color:#b17d7b;
 }
 
 .abtemily{
@@ -411,14 +411,10 @@ a:hover {
 	margin:0 auto;
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:300px 300px 300px;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
 
 .lightgallery img{
     width: 100%;
-}
-.item{
-	border: 2px solid black;
 }
