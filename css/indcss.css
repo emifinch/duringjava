@@ -410,7 +410,7 @@ a:hover {
     font-family: 'Poiret One', cursive;
 }
 
-.lightgallery{
+.container{
 	width: 90%;
 	/* border: 2px solid black; */
 	margin:0 auto;
@@ -420,6 +420,6 @@ a:hover {
     grid-row-gap: 5px;
 }
 
-.lightgallery img{
+.container img{
     width: 100%;
 }
