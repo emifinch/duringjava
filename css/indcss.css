@@ -306,7 +306,7 @@ a:hover {
     margin:25px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
-    grid-template-rows: 15% 20% 20% 15% 15% 10%;
+    grid-template-rows: 10% 20% 20% 15% 15% 10% 5%;
     grid-row-gap: 75px;
     grid-column-gap: 15px;
     grid-auto-rows: minmax(100px, auto);
@@ -322,6 +322,7 @@ a:hover {
     /* "volunt volunt" */
     "volunt2 volunt3"
     "extra cv"
+    "foot foot"
     }
 }
 
@@ -390,6 +391,10 @@ a:hover {
 
 .cv{
     grid-area: cv;
+}
+
+.foot{
+    grid-area:foot;
 }
 
 .enbolded{
