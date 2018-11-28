@@ -306,7 +306,7 @@ a:hover {
     margin:25px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
-    grid-template-rows: 10% 20% 20% 15% 15% 10% 5%;
+    grid-template-rows: 10% 20% 20% 15% 15% 10%;
     grid-row-gap: 75px;
     grid-column-gap: 15px;
     grid-auto-rows: minmax(100px, auto);
@@ -410,7 +410,7 @@ a:hover {
     font-family: 'Poiret One', cursive;
 }
 
-.container{
+.lightgallery{
 	width: 90%;
 	/* border: 2px solid black; */
 	margin:0 auto;
@@ -420,6 +420,6 @@ a:hover {
     grid-row-gap: 5px;
 }
 
-.container img{
+.lightgallery img{
     width: 100%;
 }
