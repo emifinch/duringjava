@@ -306,7 +306,7 @@ a:hover {
     margin:25px;
     padding:13px;
     grid-template-columns:1fr 1fr; 
-    grid-template-rows: 15% 15% 15% 15% 15% 25%;
+    grid-template-rows: 15% 20% 15% 20% 10% 20%;
     grid-row-gap: 75px;
     grid-column-gap: 15px;
     grid-auto-rows: minmax(100px, auto);
