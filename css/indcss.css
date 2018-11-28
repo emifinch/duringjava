@@ -424,12 +424,11 @@ a:hover {
     width: 100%;
 }
 
-<a href="#" class="myButton">olive</a>
 
 .mybutton {
-	-moz-box-shadow:inset 0px 0px 14px -3px #f2fadc;
-	-webkit-box-shadow:inset 0px 0px 14px -3px #f2fadc;
-	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	-moz-box-shadow: 0px 0px 0px 2px #c0be81;
+	-webkit-box-shadow: 0px 0px 0px 2px #c0be81;
+	box-shadow: 0px 0px 0px 2px #c0be81;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a6c48d), color-stop(1, #a6c48d));
 	background:-moz-linear-gradient(top, #a6c48d 5%, #a6c48d 100%);
 	background:-webkit-linear-gradient(top, #a6c48d 5%, #a6c48d 100%);
@@ -438,19 +437,18 @@ a:hover {
 	background:linear-gradient(to bottom, #a6c48d 5%, #a6c48d 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6c48d', endColorstr='#a6c48d',GradientType=0);
 	background-color:#a6c48d;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #b2b8ad;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #c0be81;
 	display:inline-block;
 	cursor:pointer;
 	color:#24646d;
 	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
+	font-size:19px;
+	padding:12px 37px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ced9bf;
+	text-shadow:0px 1px 0px #24646d;
 }
 .mybutton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a6c48d), color-stop(1, #a6c48d));
@@ -462,7 +460,7 @@ a:hover {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6c48d', endColorstr='#a6c48d',GradientType=0);
 	background-color:#a6c48d;
 }
-.myButton:active {
+.mybutton:active {
 	position:relative;
 	top:1px;
 }
