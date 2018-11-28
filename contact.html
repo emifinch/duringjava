@@ -66,28 +66,44 @@
 
 <h2>Explore My Projects and Publications</h2><br>
 
-<div class="lightgallery">
-    <a class="galleryimg" href="images/820.png" data-lightbox="projimage" data-title="Celsius 820 A Dystopian Novella on the Future of Publishing." data-alt="Amazon Web Page Advertising Our Ebook."><img src="images/8208.jpg"></a>
-   
-    <a class="galleryimg" href="images/cloreaug.png" data-lightbox="projimage" data-title="Smokey Bear and Other Treasures, August's Copy Lore a Publication of the U.S. Copyright Office." data-alt="Copy Lore Page from Copyright Notices at the US Copyright Office."><img src="images/cloreaug8.jpg"></a>
- 
-    <a class="galleryimg" href="images/cloreoct.png" data-lightbox="projimage" data-title="Archived Correspondence Surprises Office Staff, October's Copy Lore a Publication of the U.S. Copyright Office." data-alt="Copy Lore Page from Copyright Notices at the US Copyright Office."><img src="images/cloreoct8.jpg"></a>
-        
-    <a class="galleryimg" href="images/kane.png" data-lightbox="projimage" data-title="Team Website Created for the SI675 Digitizing Cultural Heritage Material Course at the University of Michigan." data-alt="Scalar Website for Kane and Continuity Project."><img src="images/kane8.jpg"></a>
-        
-    <a class="galleryimg" href="images/continuity.png" data-lightbox="projimage" data-title="Poster Created and Presented at the University of Michigan School of Information's ExpoSItion Conference 2017 to Showcase Research and Contributions on and to the Film Collection at the University." data-alt="Poster Presentation of the Kane and Continuity Project"><img src="images/continuity8.jpg"></a>
-    
-    <a class="galleryimg" href="images/fossils.png" data-lightbox="projimage" data-title="Poster Created and Presented to the CS3DP (Community Standards for 3D Data Preservation) Work Group Forum II Conference" data-alt="Poster Presenting Research and Research Questions for Future Study in Museums, Law, and Information Science."><img src="images/fossils8.jpg"></a>
-   
-    <a class="galleryimg" href="images/grimes.png" data-lightbox="projimage" data-title="Team Website Created for the SI580 Understanding Records and Archives Course at the University of Michigan." data-alt="Scalar Website for Lucia Vorhees Grimes: A Michigan Suffragette and Activist."><img src="images/grimes8.jpg"></a>
-      
-    <a class="galleryimg" href="images/sip.png" data-lightbox="projimage" data-title="Senior Individualized Project: Laying the Cornerstone of War: Colonial Fraternity and the American Revolution." data-alt="Kalamazoo College Library Entry for my Senior Thesis"><img src="images/sip8.jpg"></a>
+<div class="controls">
+        <button type="button" class="control" data-filter="all">All</button>
+        <button type="button" class="control" data-filter=".green">Undergraduate Work</button>
+        <button type="button" class="control" data-filter=".blue">Graduate Work </button>
+        <button type="button" class="control" data-filter=".pink">Legal Work</button>
+        <button type="button" class="control" data-filter="none">None</button>
 
-    <a class="galleryimg" href="images/spain.png"data-lightbox="projimage" data-title="Poster Created for a Seminar on the Politics of Democratic Spain." data-alt="Poster Entitled The Spanish Question: Spanish Constitutional Nationalism in the Context of Spain's Transition to Democracy."><img src= "images/spain8.jpg"></a>
+        <button type="button" class="control" data-sort="default:asc">Asc</button>
+        <button type="button" class="control" data-sort="default:desc">Desc</button>
+</div>
+
+<div class="lightgallery container">
+    <a class="galleryimg" href="images/820.png" class=".pink" data-lightbox="projimage" data-title="Celsius 820 A Dystopian Novella on the Future of Publishing." data-alt="Amazon Web Page Advertising Our Ebook."><img src="images/8208.jpg"></a>
+   
+    <a class="galleryimg" href="images/cloreaug.png" class=".pink" data-lightbox="projimage" data-title="Smokey Bear and Other Treasures, August's Copy Lore a Publication of the U.S. Copyright Office." data-alt="Copy Lore Page from Copyright Notices at the US Copyright Office."><img src="images/cloreaug8.jpg"></a>
+ 
+    <a class="galleryimg" href="images/cloreoct.png" class=".pink" data-lightbox="projimage" data-title="Archived Correspondence Surprises Office Staff, October's Copy Lore a Publication of the U.S. Copyright Office." data-alt="Copy Lore Page from Copyright Notices at the US Copyright Office."><img src="images/cloreoct8.jpg"></a>
+        
+    <a class="galleryimg" href="images/kane.png" class=".blue" data-lightbox="projimage" data-title="Team Website Created for the SI675 Digitizing Cultural Heritage Material Course at the University of Michigan." data-alt="Scalar Website for Kane and Continuity Project."><img src="images/kane8.jpg"></a>
+        
+    <a class="galleryimg" href="images/continuity.png" class=".blue" data-lightbox="projimage" data-title="Poster Created and Presented at the University of Michigan School of Information's ExpoSItion Conference 2017 to Showcase Research and Contributions on and to the Film Collection at the University." data-alt="Poster Presentation of the Kane and Continuity Project"><img src="images/continuity8.jpg"></a>
+    
+    <a class="galleryimg" href="images/fossils.png" class=".blue" data-lightbox="projimage" data-title="Poster Created and Presented to the CS3DP (Community Standards for 3D Data Preservation) Work Group Forum II Conference" data-alt="Poster Presenting Research and Research Questions for Future Study in Museums, Law, and Information Science."><img src="images/fossils8.jpg"></a>
+   
+    <a class="galleryimg" href="images/grimes.png" class=".blue" data-lightbox="projimage" data-title="Team Website Created for the SI580 Understanding Records and Archives Course at the University of Michigan." data-alt="Scalar Website for Lucia Vorhees Grimes: A Michigan Suffragette and Activist."><img src="images/grimes8.jpg"></a>
+      
+    <a class="galleryimg" href="images/sip.png" class=".green" data-lightbox="projimage" data-title="Senior Individualized Project: Laying the Cornerstone of War: Colonial Fraternity and the American Revolution." data-alt="Kalamazoo College Library Entry for my Senior Thesis"><img src="images/sip8.jpg"></a>
+
+    <a class="galleryimg" href="images/spain.png" class=".green" data-lightbox="projimage" data-title="Poster Created for a Seminar on the Politics of Democratic Spain." data-alt="Poster Entitled The Spanish Question: Spanish Constitutional Nationalism in the Context of Spain's Transition to Democracy."><img src= "images/spain8.jpg"></a>
 </div>
 
 <script src="js/lightbox-plus-jquery.js"></script>
+<script src="../mixitup.min.js"></script>
+<script>
+        var containerEl = document.querySelector('.container');
 
+        var mixer = mixitup(containerEl);
+</script>
 </main>
 <footer>
     <p> &copy;COPYRIGHT 2018</p>
