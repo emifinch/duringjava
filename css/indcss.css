@@ -45,8 +45,8 @@
 }
 
 main{
-    margin:5px;
-    padding:5px;
+    margin:15px;
+    padding:15px;
 }
 
 @media only screen and (orientation:landscape){
