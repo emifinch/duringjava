@@ -23,8 +23,8 @@
 }
 
 #callme{
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     font-size: 20px;  
     background-color:#ffb4b1;
     /* background-image: url("../images/flower.jpg"); */
@@ -42,6 +42,11 @@
     background-color:#b1fff5;
     color: #000035;
     font-family: 'Poiret One', cursive;
+}
+
+main{
+    margin:5px;
+    padding:5px;
 }
 
 @media only screen and (orientation:landscape){
