@@ -71,8 +71,6 @@ footer{
 /* Used a media query to change background of page to differ between a plain color in portrait since the image will be blocked, and an image in landscape */
 
 .headers{
-    margin: 10px;
-    padding:10px;
     font-size:50px;
     color: #5f4737;
     font-family: 'Charmonman', cursive;
@@ -114,10 +112,10 @@ a:hover {
     background-color:#b17d7b;
 }
 
-.abtemily{
+/* .abtemily{
     margin:25px;
     padding:13px;
-}
+} */
 
 .flex-container {
     display: flex;
