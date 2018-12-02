@@ -510,4 +510,12 @@ a:hover {
 .link-btn{
     color:#0f7a7e;
     background:#ffb4b1;
+    padding: 10px 20px;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.link-btn:hover {
+    background: #6ab5b8;
 }
