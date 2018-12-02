@@ -413,19 +413,33 @@ a:hover {
     font-family: 'Poiret One', cursive;
 }
 
-.lightgallery{
-	width: 90%;
-	/* border: 2px solid black; */
-	margin:0 auto;
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-}
+@media screen and (min-width:500px){
+    .lightgallery{
+        width: 90%;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
 
-.lightgallery img{
-    width: 100%;
-}
+    .lightgallery img{
+        width: 100%
+    }
+
+@media screen and (min-width:768px){
+    .lightgallery{
+        width: 90%;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .lightgallery img{
+        width: 100%
+    }
 
 .mybutton {
 	-moz-box-shadow: 0px 0px 0px 2px #c0be81;
