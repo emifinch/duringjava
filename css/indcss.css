@@ -298,9 +298,13 @@ a:hover {
     margin-right: auto;
 }
 
-/* .endpic{
-    
-} */
+.endpic{
+    width:33%;
+    length:33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .navsub{
     margin: 30px;
@@ -761,4 +765,13 @@ a:hover {
     border-bottom-left-radius: 0px;
     background-color: #bdc3c7;
     color: #7f8c8d;
+}
+.reach{
+    margin:5px;
+    padding:5px
+}
+
+.reachlist{
+    margin:10px;
+    padding:10px
 }
