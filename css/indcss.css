@@ -522,7 +522,7 @@ a:hover {
     }
 }
 
-
+/* 
 @media screen and (min-width:768px){
     .link-btn{
         color:#0f7a7e;
@@ -535,7 +535,7 @@ a:hover {
         top: 0;
         display: none;
     }
-}
+} */
 
 @media screen and (min-width:1000px){
     .link-btn{
