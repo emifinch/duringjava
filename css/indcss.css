@@ -507,17 +507,26 @@ a:hover {
 	top:1px;
 }
 
-.link-btn{
-    color:#0f7a7e;
-    padding: 10px 20px;
-    display: block;
-    margin: 10px 0;
-    text-align: center;
-    position: fixed;
-    right: 0;
-    top: 0;
+
+@media screen and (min-width:668px){
+    .link-btn{
+        display:none;
+    }
 }
 
-.link-btn:hover {
-    background: #6ab5b8;
+@media screen and (min-width:760px){
+    .link-btn{
+        color:#0f7a7e;
+        padding: 10px 20px;
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .link-btn:hover {
+        background: #6ab5b8;
+    }
 }
