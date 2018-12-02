@@ -571,6 +571,9 @@ a:hover {
 .sidebar-contact h2{
     margin:0 0 20px;
     padding:0;
+    color: #01051f;
+    font-style:30px;
+
 }
 
 .sidebar-contact input[type="submit"]{
@@ -597,12 +600,12 @@ a:hover {
    content: '\f044';
    font-family:"Font Awesome 5 Free";
    color:#fff;
-   font-size:18px;
+   font-size:22px;
 } 
 
 .toggle.active:before{
-    content: '\f00d';
+    content: '\f057';
     font-family:"Font Awesome 5 Free";
     color:#fff;
-    font-size:18px;
+    font-size:22px;
 }
