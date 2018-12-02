@@ -697,18 +697,18 @@ a:hover {
     display:block;
     width:100%;
     box-sizing: border-box;
-    font-family:'Open-sans',Arial,sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 .accordionItemHeading{
     cursor:pointer;
     margin:0px 0px 10px 0px;
     padding:10px;
-    background:#2980b9;
+    background:#088282;
     color:#fff;
     width:100%;
     -webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
         box-sizing: border-box;
 }
 .close .accordionItemContent{
@@ -724,9 +724,9 @@ border-radius: 3px;
     
 }
 .open .accordionItemContent{
-        padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fdd2d0;
+    border: 1px solid #fa7470;
     width: 100%;
     margin: 0px 0px 10px 0px;
     display:block;
