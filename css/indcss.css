@@ -409,10 +409,10 @@ a:hover {
 }
 
 .eeetitle{
-    margin: 25px;
-    padding:13px;
+    margin: 5px;
+    padding:5px;
     font-size:30px;
-    color: #22927a;
+    color: #24646d;
     font-family: 'Poiret One', cursive;
 }
 
@@ -745,8 +745,8 @@ a:hover {
 	-webkit-transition: -webkit-transform 0.4s ease-out;
 	-o-transition: -o-transform 0.4s ease;
 	-ms-transition: -ms-transform 0.4s ease;
-	transition: transform 0.4s ease;
-        box-sizing: border-box;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
 }
 
 .open .accordionItemHeading{
@@ -765,10 +765,6 @@ a:hover {
     border-bottom-left-radius: 0px;
     background-color: #bdc3c7;
     color: #7f8c8d;
-}
-.reach{
-    margin:5px;
-    padding:5px
 }
 
 .reachlist{
