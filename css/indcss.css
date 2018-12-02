@@ -507,7 +507,7 @@ a:hover {
 	top:1px;
 }
 
-@media screen and (min-width:500px){
+@media screen and (min-width:768px){
     .link-btn{
         color:#0f7a7e;
         padding: 10px 20px;
@@ -518,14 +518,10 @@ a:hover {
         right: 0;
         top: 0;
         display: none;
-}
-
-    .link-btn:hover{
-        background: #6ab5b8;
     }
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:769px){
     .link-btn{
         color:#0f7a7e;
         padding: 10px 20px;
@@ -535,9 +531,5 @@ a:hover {
         position: fixed;
         right: 0;
         top: 0;
-    }
-    
-    .link-btn:hover{
-        background: #6ab5b8;
     }
 }
