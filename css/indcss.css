@@ -508,13 +508,13 @@ a:hover {
 }
 
 
-@media screen and (min-width:668px){
+/* @media screen and (min-width:668px){ */
     .link-btn{
         display:none;
     }
 }
 
-@media screen and (min-width:760px){
+/* @media screen and (min-width:760px){ */
     .link-btn{
         color:#0f7a7e;
         padding: 10px 20px;
