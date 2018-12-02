@@ -506,3 +506,8 @@ a:hover {
 	position:relative;
 	top:1px;
 }
+
+.link-btn{
+    color:#0f7a7e;
+    background:#ffb4b1;
+}
