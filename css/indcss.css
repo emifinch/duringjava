@@ -359,6 +359,7 @@ a:hover {
 
 .ed2{
     grid-area: ed2;
+    text-decoration: underline;
 }
 
 .ed3{
@@ -371,6 +372,7 @@ a:hover {
 
 .law2{
     grid-area: law2;
+    text-decoration: underline;
 }
 
 .law3{
@@ -383,6 +385,7 @@ a:hover {
 
 .muse2{
     grid-area: muse2;
+    text-decoration: underline;
 }
 
 .muse3{
@@ -394,6 +397,7 @@ a:hover {
 
 .libarch2{
     grid-area: libarch2;
+    text-decoration: underline;
 }
 
 .libarch3{
@@ -406,6 +410,7 @@ a:hover {
 
 .volunt2{
     grid-area: volunt2;
+    text-decoration: underline;
 }
 
 .volunt3{
