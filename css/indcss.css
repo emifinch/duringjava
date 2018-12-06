@@ -207,7 +207,7 @@ a:hover {
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
     .imggrid{
         display:grid;
         margin:25px;
