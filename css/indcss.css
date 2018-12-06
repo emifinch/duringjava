@@ -270,8 +270,6 @@ a:hover {
         "five six"  
     }
 } 
-/* 768 px selected because on tablets and phones I want one column to be viewed-(layout of page is one column) but on larger laptop and desktop screens I want the full layout verison viewable.  */
-
 
 .one{
     grid-area:one;
