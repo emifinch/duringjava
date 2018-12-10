@@ -331,7 +331,7 @@ a:hover {
     padding: 0;
 }
 
-/* @media screen and (min-width:768px){ */
+@media screen and (min-width:768px){
 .dirg{
     display:grid;
     margin:25px;
@@ -354,7 +354,7 @@ a:hover {
     "volunt2 volunt3"
     "extra cv"
     }
-/* } */
+}
 
 /* .eee{
     grid-area: eee;
